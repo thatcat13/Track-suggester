@@ -15,25 +15,25 @@ $(document).ready(function() {
   var results = score(input1, input2, input3, input4, input5);
 
   if (results <= 6) {
-    $("#design, .design, .card").fadeIn();
+    $("img.design, #design, .card").fadeIn();
   } else if (results === 7) {
-    $("#ruby, .ruby, .card").fadeIn();
+    $("img.ruby, #ruby, .card").fadeIn();
   } else if (results > 7) {
-    $("#c-sharp, .c-sharp, .card").fadeIn();
+    $("img.c-sharp, #c-sharp, .card").fadeIn();
   }
 
-  $("img.design").click(function() {
-    $("#design, .design, .card").hide();
+  $("img.design, #design").click(function() {
+    $("img.design, #design, .card").hide();
     $("form")[0].reset();
   });
 
-  $("img.c-sharp").click(function() {
-    $("#c-sharp, .c-sharp, .card").hide();
+  $("img.c-sharp, #c-sharp").click(function() {
+    $("img.c-sharp, #c-sharp, .card").hide();
     $("form")[0].reset();
   });
 
-  $("img.ruby").click(function() {
-    $("#ruby, .ruby, .card").hide();
+  $("img.ruby, #ruby").click(function() {
+    $("img.ruby, #ruby, .card").hide();
     $("form")[0].reset();
   });
 
