@@ -25,6 +25,12 @@
   display: none;
   margin-top: 20px;
 }
+
+#span {
+  font-size: 1.5em;
+  padding-right: 3px;
+}
+
 #design, .design, #c-sharp, .c-sharp, #ruby, .ruby {
   cursor: pointer;
 }
