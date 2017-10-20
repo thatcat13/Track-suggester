@@ -4,7 +4,6 @@ var score = function(answer1, answer2, answer3, answer4, answer5) {
 
 
 $(document).ready(function() {
-
   $("form").submit(function(event) {
     event.preventDefault();
   var input1 = parseInt($("#creative-logic").val());
@@ -13,22 +12,15 @@ $(document).ready(function() {
   var input4 = parseInt($("#performance").val());
   var input5 = parseInt($("#desktop").val());
 
-  var results = score(input1, input2, input3, input4, input5); {
+  var results = score(input1, input2, input3, input4, input5);
 
-  if (results         ) {
+  if (results <= 6) {
     $("#front-end").show();
-  } else if (results            ) {
-    $("#back-end").show();
-  } else if (results          ) {
+  } else if (results === 7) {
     $("#full-stack").show();
-  }
-
-
-
+  } else if (results > 7) {
+    $("#back-end").show();
   }
 
   });
-
-
-
 });
