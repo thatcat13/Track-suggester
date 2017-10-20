@@ -3,31 +3,36 @@
 }
 
 
-#front-end {
+#design {
   display: none;
-  clear: left;
-  padding: 25px;
-
+  clear: both;
+  padding: 10px;
 
 }
 
-.front-end {
+.design {
   display: none;
   float: left;
-  margin: 0 0 10px 10px;
+  margin: 20px;
   padding-right: 25px;
   width: 250px;
   height: 175px;
   vertical-align: middle;
+
 }
 
-#back-end {
+.card {
+  display: none;
+  margin-top: 20px;
+}
+
+#c-sharp {
   display: none;
   clear: left;
   padding: 15px;
 }
 
-.back-end {
+.c-sharp {
   display: none;
   float: left;
   margin: 15px;
@@ -37,13 +42,13 @@
   vertical-align: middle;
 }
 
-#full-stack {
+#ruby {
   display: none;
   clear: left;
   padding: 15px;
 }
 
-.full-stack {
+.ruby {
   display: none;
   float: left;
   margin: 15px;
