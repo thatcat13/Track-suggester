@@ -15,12 +15,27 @@ $(document).ready(function() {
   var results = score(input1, input2, input3, input4, input5);
 
   if (results <= 6) {
-    $("#design, .design, .card").show();
+    $("#design, .design, .card").fadeIn();
   } else if (results === 7) {
-    $("#ruby, .ruby, .card").show();
+    $("#ruby, .ruby, .card").fadeIn();
   } else if (results > 7) {
-    $("#c-sharp, .c-sharp, .card").show();
+    $("#c-sharp, .c-sharp, .card").fadeIn();
   }
+
+  $("img.design").click(function() {
+    $("#design, .design, .card").hide();
+    $("form")[0].reset();
+  });
+
+  $("img.c-sharp").click(function() {
+    $("#c-sharp, .c-sharp, .card").hide();
+    $("form")[0].reset();
+  });
+
+  $("img.ruby").click(function() {
+    $("#ruby, .ruby, .card").hide();
+    $("form")[0].reset();
+  });
 
   });
 });

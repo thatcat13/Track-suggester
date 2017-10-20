@@ -25,6 +25,9 @@
   display: none;
   margin-top: 20px;
 }
+#design, .design, #c-sharp, .c-sharp, #ruby, .ruby {
+  cursor: pointer;
+}
 
 #c-sharp {
   display: none;
