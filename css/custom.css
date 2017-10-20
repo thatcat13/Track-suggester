@@ -1,3 +1,8 @@
+.card-img-top {
+  padding-bottom: 10px;
+}
+
+
 #front-end {
   display: none;
   clear: left;
