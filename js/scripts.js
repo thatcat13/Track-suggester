@@ -16,24 +16,30 @@ $(document).ready(function() {
 
   if (results <= 6) {
     $("img.design, #design, .card").fadeIn();
+    $("#epicodus").hide();
   } else if (results === 7) {
     $("img.ruby, #ruby, .card").fadeIn();
+    $("#epicodus").hide();
   } else if (results > 7) {
     $("img.c-sharp, #c-sharp, .card").fadeIn();
+    $("#epicodus").hide();
   }
 
   $("img.design, #design").click(function() {
-    $("img.design, #design, .card").hide();
+    $("img.design, #design, .card").fadeOut();
+    $("#epicodus").fadeIn();
     $("form")[0].reset();
   });
 
   $("img.c-sharp, #c-sharp").click(function() {
-    $("img.c-sharp, #c-sharp, .card").hide();
+    $("img.c-sharp, #c-sharp, .card").fadeOut();
+    $("#epicodus").fadeIn();
     $("form")[0].reset();
   });
 
   $("img.ruby, #ruby").click(function() {
-    $("img.ruby, #ruby, .card").hide();
+    $("img.ruby, #ruby, .card").fadeOut();
+    $("#epicodus").fadeIn();
     $("form")[0].reset();
   });
 
