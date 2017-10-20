@@ -7,12 +7,26 @@ $(document).ready(function() {
 
   $("form").submit(function(event) {
     event.preventDefault();
-  var answer1 = parseInt($("creative-logic").val());
-  var answer2 = parseInt($("solo-group").val());
-  var answer3 = parseInt($("ui").val());
-  var answer4 = parseInt($("performance").val());
-  var answer5 = parseInt($("desktop").val());
-  
+  var input1 = parseInt($("#creative-logic").val());
+  var input2 = parseInt($("#solo-group").val());
+  var input3 = parseInt($("#ui").val());
+  var input4 = parseInt($("#performance").val());
+  var input5 = parseInt($("#desktop").val());
+
+  var results = score(input1, input2, input3, input4, input5); {
+
+  if (results         ) {
+    $("#front-end").show();
+  } else if (results            ) {
+    $("#back-end").show();
+  } else if (results          ) {
+    $("#full-stack").show();
+  }
+
+
+
+  }
+
   });
 
 
