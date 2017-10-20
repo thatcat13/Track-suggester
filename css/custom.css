@@ -1,11 +1,49 @@
 #front-end {
   display: none;
+  clear: left;
+  padding: 25px;
+
+
+}
+
+.front-end {
+  display: none;
+  float: left;
+  margin: 0 0 10px 10px;
+  padding-right: 25px;
+  width: 250px;
+  height: 175px;
+  vertical-align: middle;
 }
 
 #back-end {
-  display: none;
+  /*display: none;*/
+  clear: left;
+  padding: 15px;
+}
+
+.back-end {
+  /*display: none;*/
+  float: left;
+  margin: 15px;
+  padding-right: 10px;
+  width: 250px;
+  height: 175px;
+  vertical-align: middle;
 }
 
 #full-stack {
   display: none;
+  clear: left;
+  padding: 15px;
+}
+
+.full-stack {
+  display: none;
+  float: left;
+  margin: 15px;
+  padding-right: 10px;
+  width: 250px;
+  height: 175px;
+  vertical-align: middle;
 }
