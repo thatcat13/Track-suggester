@@ -7,8 +7,8 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
   var input1 = parseInt($("#creative-logic").val());
-  var input2 = parseInt($("#solo-group").val());
-  var input3 = parseInt($("#ui").val());
+  var input2 = parseInt($("#industry").val());
+  var input3 = parseInt($("#easy-hard").val());
   var input4 = parseInt($("#performance").val());
   var input5 = parseInt($("#desktop").val());
 
