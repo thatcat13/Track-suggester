@@ -15,11 +15,11 @@ $(document).ready(function() {
   var results = score(input1, input2, input3, input4, input5);
 
   if (results <= 6) {
-    $("#front-end").show();
+    $("#front-end, .front-end").show();
   } else if (results === 7) {
-    $("#full-stack").show();
+    $("#full-stack, .full-stack").show();
   } else if (results > 7) {
-    $("#back-end").show();
+    $("#back-end, .back-end").show();
   }
 
   });

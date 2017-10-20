@@ -17,13 +17,13 @@
 }
 
 #back-end {
-  /*display: none;*/
+  display: none;
   clear: left;
   padding: 15px;
 }
 
 .back-end {
-  /*display: none;*/
+  display: none;
   float: left;
   margin: 15px;
   padding-right: 10px;
